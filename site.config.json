@@ -1,0 +1,110 @@
+{
+  "brand": {
+    "name": "APEX MD",
+    "fullName": "APEX MD Mini",
+    "tagline": "WhatsApp Automation",
+    "version": "V2.0 LIVE",
+    "introSubtitle": "MULTIDEVICE WA BOT",
+    "welcomeText": "We are here to provide you with the best services that you deserve.",
+    "pageTitle": "Pairing Web",
+    "pageSubtitle": "Link your WhatsApp number with a pairing code or QR in about a minute.",
+    "creator": "CREATED BY APEX TEAM",
+    "codeTag": "APEX-BOT"
+  },
+  "seo": {
+    "title": "APEX MD MINI — Fastest WhatsApp Bot",
+    "description": "APEX MD Mini is a fast, reliable WhatsApp automation bot. Connect your WhatsApp number instantly using a pairing code or QR scanner.",
+    "siteUrl": "https://apexmd.example.com"
+  },
+  "images": {
+    "logo": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=400&q=80&auto=format&fit=crop",
+    "avatar": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=400&q=80&auto=format&fit=crop",
+    "popupBanner": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1000&q=80&auto=format&fit=crop",
+    "pairBanner": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1000&q=80&auto=format&fit=crop",
+    "fallback": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80&auto=format&fit=crop"
+  },
+  "links": {
+    "channelUrl": "https://whatsapp.com/channel/0029VbAESDFGehEJtSs4GY45",
+    "supportNumber": "",
+    "supportText": "Hi, I need help with APEX MD Mini bot.",
+    "telegram": "https://t.me/",
+    "github": "https://github.com/",
+    "chat": "https://wa.me/",
+    "sponsorUrl": "#"
+  },
+  "api": {
+    "pairingBase": "https://hack-myapi.vercel.app/api/connect",
+    "pairingKey": "bunnyxmdth3",
+    "corsProxies": [
+      "https://corsproxy.io/?url={url}",
+      "https://api.allorigins.win/raw?url={url}",
+      "https://api.codetabs.com/v1/proxy/?quest={url}"
+    ],
+    "qrUrl": "https://bun-nnyqr.vercel.app/api/qr",
+    "qrRefreshSeconds": 120,
+    "counterNamespace": "apexmd-mini-site",
+    "fallbackCity": { "name": "Kolkata", "lat": 22.57, "lon": 88.36 }
+  },
+  "music": {
+    "autoplay": true,
+    "volume": 0.7,
+    "playlist": [
+      { "title": "Sky Drift", "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
+      { "title": "Neon Pulse", "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
+      { "title": "Cloud Runner", "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
+      { "title": "Blue Hour", "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
+      { "title": "Apex Rise", "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
+      { "title": "Horizon", "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" }
+    ]
+  },
+  "popup": {
+    "enabled": true,
+    "title": "APEX MD MINI",
+    "text": "Fast, reliable, and modular WhatsApp automation bot. Link your WhatsApp number effortlessly in a minute.",
+    "dismissLabel": "Dismiss",
+    "channelLabel": "Follow Channel"
+  },
+  "features": [
+    { "icon": "zap", "title": "Linked in about a minute", "text": "Enter your number, get a code, type it into WhatsApp. The bot connects right away." },
+    { "icon": "qr", "title": "Two ways to pair", "text": "Use an 8-character pairing code or scan a QR code. Pick whichever is easier on your phone." },
+    { "icon": "users", "title": "Group tools", "text": "Welcome messages, anti-link, tag everyone, and admin commands to keep groups tidy." },
+    { "icon": "image", "title": "Stickers and media", "text": "Turn images and videos into stickers, and download music and video by sending a link." },
+    { "icon": "cloud", "title": "Online around the clock", "text": "The bot runs on cloud servers, so it keeps replying even when your phone is off." },
+    { "icon": "shield", "title": "You stay in control", "text": "It connects as a linked device. Remove it from WhatsApp settings any time to disconnect." }
+  ],
+  "steps": [
+    { "title": "Open the pairing page", "text": "Tap “Connect Bot” or “Go to Pairing Section” from the menu." },
+    { "title": "Enter your number", "text": "Type it with a plus sign and country code, like +919876543210. No spaces needed." },
+    { "title": "Copy the code", "text": "Tap Copy Code. In WhatsApp, go to Linked Devices, then Link with phone number instead." },
+    { "title": "Paste and start using", "text": "Enter the code in WhatsApp. The bot connects and you can send your first command." }
+  ],
+  "chips": ["Menu", "Stickers", "Downloaders", "Group tools", "Fun commands"],
+  "chatDemo": [
+    { "me": true, "text": ".menu" },
+    { "me": false, "text": "APEX MD MINI\nChoose a section:\n• Stickers\n• Downloaders\n• Group tools\n• Fun" },
+    { "me": true, "text": ".sticker" },
+    { "me": false, "text": "Reply to an image or short video and I will turn it into a sticker." },
+    { "me": true, "text": ".ping" },
+    { "me": false, "text": "Pong! I am online." }
+  ],
+  "faq": [
+    { "q": "Is it free to pair?", "a": "Pairing itself is just a number and a code. If you have questions about plans or limits, message us through Bot Support." },
+    { "q": "My code does not work. What should I do?", "a": "Codes expire in a couple of minutes. Check that your number starts with + and the country code, then generate a new code and enter it right away." },
+    { "q": "Which countries are supported?", "a": "Any country. Always type the number as + then the country code then your number, for example +14155552671 or +919876543210." },
+    { "q": "How do I disconnect the bot?", "a": "Open WhatsApp, go to Linked Devices, tap the bot session and choose Log out." },
+    { "q": "Should I use the code or the QR?", "a": "Use the code if you are on one phone, since you cannot scan your own screen. Use the QR when you have a second device." }
+  ],
+  "pairPage": {
+    "deckTitle": "Console Deck",
+    "deckText": "Generate your pairing code securely and link your bot in seconds.",
+    "subtitle": "Unique & Stylish Digital Experience",
+    "phonePlaceholder": "+919876543210",
+    "miniText": "High-performance cloud infrastructure for instant, always-on bot execution.",
+    "sponsorText": "Tap to support APEX MD Mini — free hosting, no cost to you",
+    "badges": ["Layer-7 Handshake Protection", "Load-Balanced Gateway"]
+  },
+  "intro": {
+    "enabled": true,
+    "holdMs": 1800
+  }
+}
